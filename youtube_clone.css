@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+ margin: 15px;
+ padding-top: 15px;
+}
+.left-nav{
+    margin-top: 20px;
+    left: 0;
+    position: fixed;
+    width: 80px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+  
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.icon i{
+    margin-bottom: 10px;
+}
+.left-nav img{
+    margin-left: 2px;
+}
+span{
+    font-size: 10px;
+}
+.main-container{
+    margin-left: 100px;
+
+}
+.top-top-nav{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.youtube-logo img{
+    width: 120px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+.search input{
+    width: 580px;
+    height: 38px;
+    border: 1px solid #E1E1E1;
+}
+.search-icon{
+    background-color: #E1E1E1;
+    padding: 10px;
+}
+.microphone-icon{
+    background-color: rgb(223, 219, 219);
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    align-content: center;
+}
+.right-nav-side{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.my-photo{
+    border-radius: 50px;
+}
+.border{
+    border-top: 1px solid rgb(214, 200, 200);
+    margin-top: 10px;
+}
+
+.top-suggestions{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.light{
+    padding: 10px;
+    background-color: #E1E1E1;
+    border-radius: 10px;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.video{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.video-class{
+    margin-bottom: 20px;
+}
+.player{
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
+    height: 200px;
+    width: 400px;
+  }
+
+
+.player-content{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    
+}
+.player-content img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.player-content-side{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.player-content-side h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+.player-content-side h5{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #606060;
+}
+
+
+
+
+
+
+
